@@ -1,0 +1,52 @@
+.event {
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+    &__header {
+        h2 {
+            font-size: 3em;
+        }
+    }
+    &__image {
+        width: 49%;
+        float: left;
+        img {
+            width: 100%;
+        }
+    }
+
+    &__weather {
+        text-align: right;
+        margin-left: 50px;
+        float: right;
+        font-size: 90px;
+    }
+
+    &__description {
+        clear: both;
+        margin-bottom: 0;
+    }
+
+    .material-icons {
+        font-size: 200px;
+    }
+}
+
+
+@media only screen and (max-width: 860px) {
+    .event {
+        &__image {
+            width: 100%;
+            float: left;
+            img {
+                width: 100%;
+            }
+        }
+        &__weather {
+            text-align: center;
+            margin-left: unset;
+            width: 100%;
+        }
+    }
+  }
