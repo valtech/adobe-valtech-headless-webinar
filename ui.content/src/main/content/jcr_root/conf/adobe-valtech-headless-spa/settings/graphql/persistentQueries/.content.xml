@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content jcr:primaryType="nt:unstructured"/>
+    <allEvents
+        jcr:created="{Date}2023-03-03T09:56:35.192Z"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="graphql/persistent/query">
+        <jcr:content
+            jcr:data="{Binary}"
+            jcr:lastModified="{Date}2023-03-03T10:00:51.197Z"
+            jcr:mimeType="text/html"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="graphql/persistent/query/content"/>
+    </allEvents>
+    <allLocations
+        jcr:created="{Date}2023-03-03T10:01:55.566Z"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="graphql/persistent/query">
+        <jcr:content
+            jcr:data="{Binary}"
+            jcr:mimeType="text/html"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="graphql/persistent/query/content"/>
+    </allLocations>
+    <eventsByLocationName
+        jcr:created="{Date}2023-03-03T10:07:10.835Z"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="graphql/persistent/query">
+        <jcr:content
+            jcr:data="{Binary}"
+            jcr:lastModified="{Date}2023-03-03T10:10:27.634Z"
+            jcr:mimeType="text/html"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="graphql/persistent/query/content"/>
+    </eventsByLocationName>
+    <eventByPath
+            jcr:created="{Date}2023-03-03T10:07:10.835Z"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="graphql/persistent/query">
+        <jcr:content
+                jcr:data="{Binary}"
+                jcr:lastModified="{Date}2023-03-03T10:10:27.634Z"
+                jcr:mimeType="text/html"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="graphql/persistent/query/content"/>
+    </eventByPath>
+</jcr:root>

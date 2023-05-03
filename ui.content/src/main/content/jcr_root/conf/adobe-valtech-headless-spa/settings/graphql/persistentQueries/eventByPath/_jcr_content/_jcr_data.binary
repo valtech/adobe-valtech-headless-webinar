@@ -1,0 +1,24 @@
+query eventByPath($path:String!){
+    eventByPath(_path: $path) {
+        item {
+        	_path
+         title
+          description {
+            html
+          }
+          image {
+            ... on ImageRef {
+              _publishUrl
+              _path
+            }
+          }
+
+        location {
+          _path
+          lat
+          lng
+          name
+        }
+        }
+    }
+}

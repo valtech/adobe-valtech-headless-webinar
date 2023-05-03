@@ -1,0 +1,14 @@
+#
+# This file contains the filter ACL, and can be customized.
+#
+# By default, it includes the default filter ACL.
+#
+
+$include "./default_filters.any"
+
+# Allow components JSON model
+/0101 { /type "allow" /extension "json" /selectors "model" /path "/content/*" }
+
+# Enable GraphQL
+/1060 { /type "allow" /method '(GET|POST|OPTIONS)' /url "/content/_cq_graphql/*/endpoint.json" }
+/1061 { /type "allow" /method '(GET|POST|OPTIONS)' /url "/graphql/execute.json*" }

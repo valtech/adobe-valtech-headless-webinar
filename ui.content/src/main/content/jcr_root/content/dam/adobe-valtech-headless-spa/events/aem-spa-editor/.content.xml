@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="f703a7a8-4b3d-4332-8b38-c7874dc4448d">
+    <jcr:content
+        cq:name="aem-spa-editor"
+        cq:parentPath="/content/dam/adobe-valtech-headless-spa/events"
+        jcr:lastModified="{Date}2023-04-21T08:18:40.728Z"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="AEM SPA Editor"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-04-21T08:18:40.728Z">
+        <data
+            cq:model="/conf/adobe-valtech-headless-spa/settings/dam/cfm/models/event"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                description="&lt;h2>Introduction&lt;/h2>&#xa;&lt;p>Sites built using common SPA frameworks such as React and Angular load their content via dynamic JSON and do not provide the HTML structure that is necessary for the AEM Page Editor to be able to place edit controls.&lt;/p>&#xa;&lt;p>To enable the editing of SPAs within AEM, a mapping between the JSON output of the SPA and the content model in the AEM repository is needed to save changes to the content.&lt;/p>&#xa;"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2023-04-21T08:18:40.650Z"
+                image="/content/dam/adobe-valtech-headless-spa/react-icon.png"
+                image_x0040_LastModified="{Date}2023-04-21T08:18:40.650Z"
+                location="/content/dam/adobe-valtech-headless-spa/locations/los-angeles"
+                location_x0040_LastModified="{Date}2023-04-21T08:18:40.651Z"
+                title="AEM SPA Editor"
+                title_x0040_LastModified="{Date}2023-04-21T08:18:40.650Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="feb883ae-ee94-4a46-ac89-25dc1ea21eb2"
+                _x0040_string_x0040_model="/conf/adobe-valtech-headless-spa/settings/dam/cfm/models/event"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_description="&lt;h2>Introduction&lt;/h2>&#xa;&lt;p>Sites built using common SPA frameworks such as React and Angular load their content via dynamic JSON and do not provide the HTML structure that is necessary for the AEM Page Editor to be able to place edit controls.&lt;/p>&#xa;&lt;p>To enable the editing of SPAs within AEM, a mapping between the JSON output of the SPA and the content model in the AEM repository is needed to save changes to the content.&lt;/p>&#xa;"
+                string_x0040_title="AEM SPA Editor"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

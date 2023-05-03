@@ -1,0 +1,32 @@
+{
+  "supportscredentials":false,
+  "supportedmethods":[
+    "GET",
+    "HEAD",
+    "POST"
+  ],
+  "exposedheaders":[
+    ""
+  ],
+  "alloworigin":[
+    "https://wefixyourproject.com",
+    "https://local.site",
+    "http://localhost:3000"
+  ],
+  "maxage:Integer":1800,
+  "alloworiginregexp":[
+    ""
+  ],
+  "supportedheaders":[
+    "Origin",
+    "Accept",
+    "X-Requested-With",
+    "Content-Type",
+    "Access-Control-Request-Method",
+    "Access-Control-Request-Headers"
+  ],
+  "allowedpaths":[
+    "/content/cq:graphql/adobe-valtech-headless-spa/endpoint.json",
+    "/graphql/execute.json/.*"
+  ]
+}

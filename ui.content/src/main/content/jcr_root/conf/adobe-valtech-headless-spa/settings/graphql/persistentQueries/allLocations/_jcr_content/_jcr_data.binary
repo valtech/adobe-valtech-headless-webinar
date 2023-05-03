@@ -1,0 +1,11 @@
+query allLocations {
+  
+  locationList {
+    items {
+      name
+      lat
+      lng
+    }
+  }
+}
+

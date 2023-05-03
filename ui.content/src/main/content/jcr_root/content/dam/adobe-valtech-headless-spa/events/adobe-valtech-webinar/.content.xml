@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="a93630f7-835f-48c9-b607-158ae34356f1">
+    <jcr:content
+        cq:lastReplicated="{Date}2023-05-03T07:29:50.859Z"
+        cq:lastReplicated_publish="{Date}2023-05-03T07:29:50.859Z"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicatedBy_publish="admin"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="adobe-&amp;-valtech-webinar"
+        cq:parentPath="/content/dam/adobe-valtech-headless-spa/events"
+        jcr:lastModified="{Date}2023-05-03T07:28:44.957Z"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Adobe &amp; Valtech Webinar"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-05-03T07:28:44.957Z">
+        <data
+            cq:model="/conf/adobe-valtech-headless-spa/settings/dam/cfm/models/event"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                description="&lt;h2>Adobe Digital Leaders Series Webinar&lt;/h2>&#xa;&lt;p>&lt;b>Valtech shares about moving from headful to headless and composable&lt;/b>&lt;br>&#xa;&lt;br>&#xa;&lt;/p>&#xa;&lt;p>To maximize its value, marketers must distribute their content multi-channel and agnostic of presentation technology. Headless content has been rapidly adopted by the industry to provide the solution to this need. Adobe Experience Manager unlocks the marketers’ most precious resource in a flexible and accessible manner, consumable by any frontend stack and composable experience.&lt;br>&#xa;&lt;br>&#xa;This two-part webinar series looks at different flavors of headless content powered by AEM. We demonstrate how technical teams leverage AEM in modern architectures when delivering headless content for frontend-driven experiences, from single-page-apps to content-as-a-service. We’ll dive deep into the technology, showing how teams can take advantage of these AEM features and extend them for their own use cases.&lt;/p>&#xa;"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2023-05-03T07:26:46.543Z"
+                image="/content/dam/adobe-valtech-headless-spa/ec_appicon_noshadow_512.png"
+                image_x0040_LastModified="{Date}2023-05-03T07:28:44.897Z"
+                location="/content/dam/adobe-valtech-headless-spa/locations/munich"
+                location_x0040_LastModified="{Date}2023-05-03T07:26:46.544Z"
+                title="From Headful to Headless &amp; Composable"
+                title_x0040_LastModified="{Date}2023-05-03T07:26:46.542Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="ade6e497-a5d8-416a-b052-0870d45f7b8f"
+                _x0040_string_x0040_model="/conf/adobe-valtech-headless-spa/settings/dam/cfm/models/event"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_description="&lt;h2>Adobe Digital Leaders Series Webinar&lt;/h2>&#xa;&lt;p>&lt;b>Valtech shares about moving from headful to headless and composable&lt;/b>&lt;br>&#xa;&lt;br>&#xa;&lt;/p>&#xa;&lt;p>To maximize its value, marketers must distribute their content multi-channel and agnostic of presentation technology. Headless content has been rapidly adopted by the industry to provide the solution to this need. Adobe Experience Manager unlocks the marketers’ most precious resource in a flexible and accessible manner, consumable by any frontend stack and composable experience.&lt;br>&#xa;&lt;br>&#xa;This two-part webinar series looks at different flavors of headless content powered by AEM. We demonstrate how technical teams leverage AEM in modern architectures when delivering headless content for frontend-driven experiences, from single-page-apps to content-as-a-service. We’ll dive deep into the technology, showing how teams can take advantage of these AEM features and extend them for their own use cases.&lt;/p>&#xa;"
+                string_x0040_title="From Headful to Headless &amp; Composable"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

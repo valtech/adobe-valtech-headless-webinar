@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/content/cq:graphql/adobe-valtech-headless-spa"/>
+    <filter root="/conf/adobe-valtech-headless-spa"/>
+    <filter root="/content/adobe-valtech-headless-spa" mode="merge"/>
+    <filter root="/content/dam/adobe-valtech-headless-spa"/>
+    <filter root="/content/experience-fragments/adobe-valtech-headless-spa" mode="merge"/>
+</workspaceFilter>

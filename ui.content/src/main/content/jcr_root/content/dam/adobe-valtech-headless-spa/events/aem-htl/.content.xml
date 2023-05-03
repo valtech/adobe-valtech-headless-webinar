@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="3c21e518-281c-42ff-83a2-e3e7e508c495">
+    <jcr:content
+        cq:name="aem-htl"
+        cq:parentPath="/content/dam/adobe-valtech-headless-spa/events"
+        jcr:lastModified="{Date}2023-04-21T08:06:42.898Z"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="AEM HTL"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-04-21T08:06:42.898Z">
+        <data
+            cq:model="/conf/adobe-valtech-headless-spa/settings/dam/cfm/models/event"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                description="&lt;h2>Formerly Known As Sightly&lt;/h2>&#xa;&lt;p>HTML Template Language (HTL) is the preferred and recommended server-side template system for HTML in Adobe Experience Manager. It takes the place of JSP (JavaServer Pages) as used in previous versions of AEM.&lt;/p>&#xa;"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2023-04-21T07:55:28.849Z"
+                image="/content/dam/adobe-valtech-headless-spa/sightly.jpg"
+                image_x0040_LastModified="{Date}2023-04-21T08:06:42.829Z"
+                location="/content/dam/adobe-valtech-headless-spa/locations/munich"
+                location_x0040_LastModified="{Date}2023-04-21T08:06:42.829Z"
+                title="AEM HTL"
+                title_x0040_LastModified="{Date}2023-04-21T07:55:28.848Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="4a021a4f-fcec-4ca9-9e4e-ac8aeac1c9f1"
+                _x0040_string_x0040_model="/conf/adobe-valtech-headless-spa/settings/dam/cfm/models/event"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_description="&lt;h2>Formerly Known As Sightly&lt;/h2>&#xa;&lt;p>HTML Template Language (HTL) is the preferred and recommended server-side template system for HTML in Adobe Experience Manager. It takes the place of JSP (JavaServer Pages) as used in previous versions of AEM.&lt;/p>&#xa;"
+                string_x0040_title="AEM HTL"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

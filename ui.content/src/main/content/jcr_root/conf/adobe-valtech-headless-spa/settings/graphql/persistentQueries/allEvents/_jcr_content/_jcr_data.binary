@@ -1,0 +1,19 @@
+query allEvents {
+  eventList {
+    items {
+      _path
+      title
+      image {
+            ... on ImageRef {
+              _publishUrl
+              _path
+            }
+          }
+      location {
+        name
+        lat
+        lng
+      }
+    }
+  }
+}

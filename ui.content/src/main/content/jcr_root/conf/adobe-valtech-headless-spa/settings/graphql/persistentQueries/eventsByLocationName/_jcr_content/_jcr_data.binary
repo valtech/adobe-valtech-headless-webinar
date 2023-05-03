@@ -1,0 +1,24 @@
+query eventsByLocation($name:String!){
+  eventList(
+    filter:{
+      location:{
+        name : {
+        _expressions:[{
+          value:$name
+          _operator:EQUALS
+        }]
+        }
+      }
+    }
+  ){
+    items{
+      title
+      location {
+        name
+        lat
+        lng
+      }
+      
+    
+  
+    }}}

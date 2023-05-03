@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="411ce340-19ad-4204-a357-86afc16b4ba5">
+    <jcr:content
+        cq:name="react-app-standalone"
+        cq:parentPath="/content/dam/adobe-valtech-headless-spa/events"
+        jcr:lastModified="{Date}2023-04-21T08:30:19.777Z"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="React App Standalone"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-04-21T08:30:19.777Z">
+        <data
+            cq:model="/conf/adobe-valtech-headless-spa/settings/dam/cfm/models/event"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                description="&lt;h1>Getting Started with AEM Headless - GraphQL&lt;/h1>&#xa;&lt;p>AEM’s GraphQL APIs for Content Fragments&lt;br>&#xa;supports headless CMS scenarios where external client applications render experiences using content managed in AEM.&lt;/p>&#xa;"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2023-04-21T08:29:18.858Z"
+                image="/content/dam/adobe-valtech-headless-spa/aem-gql.png"
+                image_x0040_LastModified="{Date}2023-04-21T08:30:19.708Z"
+                location="/content/dam/adobe-valtech-headless-spa/locations/munich"
+                location_x0040_LastModified="{Date}2023-04-21T08:30:19.709Z"
+                title="React App Standalone"
+                title_x0040_LastModified="{Date}2023-04-21T08:29:18.857Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="adace0a3-5c20-43c2-885c-ec63ca9446bc"
+                _x0040_string_x0040_model="/conf/adobe-valtech-headless-spa/settings/dam/cfm/models/event"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_description="&lt;h1>Getting Started with AEM Headless - GraphQL&lt;/h1>&#xa;&lt;p>AEM’s GraphQL APIs for Content Fragments&lt;br>&#xa;supports headless CMS scenarios where external client applications render experiences using content managed in AEM.&lt;/p>&#xa;"
+                string_x0040_title="React App Standalone"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <locations/>
+    <events/>
+    <jcr:content
+        cq:conf="/conf/adobe-valtech-headless-spa"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Adobe Valtech Headless SPA">
+        <folderThumbnail/>
+    </jcr:content>
+    <sightly.jpg/>
+    <react-icon.png/>
+    <aem-gql.png/>
+</jcr:root>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="c4a8d540-b36a-4136-aba7-bbb82fb16c2d">
+    <jcr:content
+        cq:lastReplicated="{Date}2023-05-03T07:29:50.859Z"
+        cq:lastReplicated_publish="{Date}2023-05-03T07:29:50.859Z"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicatedBy_publish="admin"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="ec_appicon_noshadow_512.png"
+        cq:parentPath="/content/dam/adobe-valtech-headless-spa"
+        cq:versionComment="cq5dam.png"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2023-05-03T07:31:57.089Z"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}32"
+            dam:extracted="{Date}2023-05-03T07:31:57.032Z"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="8d7933edbd3f7364b83be74ec0a04f903983f0f5"
+            dam:size="{Long}10017"
+            dc:format="image/png"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}512"
+            tiff:ImageWidth="{Long}512"
+            imageMap="\[circle(265,253,193)&quot;&quot;|&quot;&quot;|&quot;&quot;]"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

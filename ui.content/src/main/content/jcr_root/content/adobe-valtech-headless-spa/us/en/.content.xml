@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        pageTitle="Adobe Valtech Headless SPA"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="en"
+        cq:template="/conf/adobe-valtech-headless-spa/settings/wcm/templates/spa-app-template"
+        sling:resourceType="adobe-valtech-headless-spa/components/spa"
+    >
+    </jcr:content>
+</jcr:root>
