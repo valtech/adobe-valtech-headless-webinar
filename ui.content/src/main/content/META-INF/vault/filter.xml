@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/adobe-valtech-headful"/>
+    <filter root="/content/adobe-valtech-headful" mode="merge"/>
+    <filter root="/content/dam/adobe-valtech-headful" mode="merge">
+        <exclude pattern="/content/dam/adobe-valtech-headful(/.*)?"/>
+        <include pattern="/content/dam/adobe-valtech-headful/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/adobe-valtech-headful/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/adobe-valtech-headful" mode="merge"/>
+</workspaceFilter>

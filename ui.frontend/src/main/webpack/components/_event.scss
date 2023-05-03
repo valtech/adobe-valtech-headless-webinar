@@ -1,0 +1,33 @@
+.event {
+
+    h2 {
+        font-size: xxx-large;
+    }
+
+    &__image {
+        float: left;
+        width: 63%;
+        text-align: center;
+        img {
+            width: 400px
+        }
+    }
+
+    &__weather {
+        float: right;
+        width: 30%;
+        font-size: 90px;
+    }
+
+    &__description {
+        clear: both;
+        margin-bottom: 0;
+    }
+
+    .material-icons {
+        font-size: 200px;
+    }
+}
+
+
+

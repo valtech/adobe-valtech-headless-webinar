@@ -1,0 +1,16 @@
+<div data-sly-use.event="com.adobe.valtech.headful.core.models.Event"
+    data-sly-use.templates="core/wcm/components/commons/v1/templates.html"
+    data-cmp-is="cmp-event">
+    <div class="event__header" data-sly-set.inLocName="in ${event.location.name}">
+        <h2>${event.title} ${event.location.name ? inLocName : ''}</h2>
+    </div>
+    <div class="event__image">
+        <img src="${event.imageReference}" />
+    </div>
+    <div class="event__weather" data-lat="${event.location.lat}" data-lng="${event.location.lng}"></div>
+    </div>
+    <div class="event__description">
+        ${event.description @ context = 'html'}
+    </div>
+</div>
+<sly data-sly-call="${templates.placeholder @ isEmpty = !event.title, classAppend='cmp-event'}"></sly>
